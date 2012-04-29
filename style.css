@@ -1,0 +1,65 @@
+body {
+  line-height:1.5;
+  margin-top: 3em;
+  font-family: "Verdana", sans-serif;
+}
+#page-wrapper {
+	margin: 0 auto;
+	width: 550px;
+}
+#page {
+  margin: 0;
+}
+#header a {
+  color: #aaa;
+}
+#site-name, #site-slogan, .block h1 {
+  font-size: 3.3em;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 1em;
+  letter-spacing: -0.03em;
+  color: #ddd;
+}
+#name-and-slogan {
+  clear: both;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ccc;
+}
+h1, h2, h3, h4, h5, h6, legend {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  line-height:1.25;
+  letter-spacing: -0.02em;
+  clear: both;
+}
+.content img, .content iframe, .content embed {
+  width: 100%;
+}
+a, a:link, a:active, a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.form-submit, .action-links a {
+  font-weight: bold;
+}
+.node {
+  border-bottom: 1px solid #ccc;  
+}
+#site-name, #site-slogan {
+  display: inline;
+}
+.view-pages h2.type-feed_item {
+  display: none;
+}
+.view-pages .submitted.type-feed_item {
+  margin-top: -1.5em;
+}
+.view-pages .views-row {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ddd;  
+  margin-bottom: 1em;
+}
+.submitted a, .submitted a:link {
+  color: #888;
+}
